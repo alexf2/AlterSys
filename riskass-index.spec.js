@@ -231,9 +231,6 @@ describe('<RiskAssessmentWidget />', () => {
         expect(items.item(1).innerHTML).toBe('yAxis');
       });
 
-      //fixme: Disabled until we make a conclusion on how to select bars easily.
-      //fixme: Should we add ID to bars? (As it was before) Can they interfere with something?
-      //fixme: Do we have unique chart id provided by dashboard? It can fix interference problems.
 
       test('Native: Handles full filtering', () => {
         const wrapper = mount(
