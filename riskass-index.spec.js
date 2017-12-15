@@ -8,7 +8,7 @@ import toJson from 'enzyme-to-json';
 import {stdDashboardProps} from '../dashboard-fixtures';
 import {fire} from 'simulant';
 
-describe('<RiskAssessmentWidget />', () => {
+describe('<RiskAssessmentWidget2 />', () => {
   const datatable = {
     result: {
       chart: {
